@@ -14,8 +14,8 @@ OUTPUT_DIR = './storage'            # local path to write video to
 
 # magic strings
 EVENT = 'libactivator.motion.shake'
-PHOTO_DIR = 'private/var/mobile/Media/DCIM/100APPLE'
-THUMBNAIL_DIR = 'private/var/mobile/Media/PhotoData/Thumbnails/V2/DCIM/100APPLE'
+PHOTO_DIR = 'private/var/mobile/Media/DCIM/101APPLE'
+THUMBNAIL_DIR = 'private/var/mobile/Media/PhotoData/Thumbnails/V2/DCIM/101APPLE'
 
 def toggleCamera():
     os.system(f"ssh {USER}@{IP_ADDRESS} 'activator activate {EVENT}'")
