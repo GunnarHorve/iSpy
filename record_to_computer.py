@@ -5,7 +5,7 @@ from time import sleep, gmtime, strftime
 # per-phone params
 MOUNT_POINT = './5'                 # location to find mounted iPhone
 USER = 'root'                       # user to ssh into iPhone with
-IP_ADDRESS = '192.168.0.102'        # local address phone is located at
+IP_ADDRESS = '192.168.0.107'        # local address phone is located at
 
 # video frequency params
 RECORDING_LENGTH = 10               # length of video recording (seconds)

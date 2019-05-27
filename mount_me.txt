@@ -1,5 +1,5 @@
 # first:  you mount the directory
-sudo sshfs -o allow_other root@192.168.0.102:/ /home/gunnar/Documents/iphones/5
+sudo sshfs -o allow_other root@192.168.0.107:/ ./5
 
 # second, you call the record_to_computer script every 10s
 watch -n 10 ./record_to_computer.py
