@@ -33,11 +33,12 @@ def copyToComputer(start_time):
         print(f"FAILURE:  {RECORDING_LENGTH}s recording at {start_time}")
         toggleCamera()
 
-# simple, dumb logic
-start_time = strftime("%Y-%m-%d-%H:%M:%S", gmtime())
-toggleCamera()
-clearPhoneData()
-sleep(RECORDING_LENGTH)
-toggleCamera()
-sleep(COOLDOWN_PERIOD)
-copyToComputer(start_time)
+def run():
+    # simple, dumb logic
+    start_time = strftime("%Y-%m-%d-%H:%M:%S", gmtime())
+    toggleCamera()
+    clearPhoneData()
+    sleep(RECORDING_LENGTH)
+    toggleCamera()
+    sleep(COOLDOWN_PERIOD)
+    copyToComputer(start_time)
