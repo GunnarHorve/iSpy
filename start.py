@@ -27,7 +27,7 @@ class iPhoneScraper:
     def __init__(self):
         self.start_time = ''
         self.is_recording = False
-        # self.resetCameraState()
+        self.resetCameraState()
 
     def resetCameraState(self):
         self.clearPhoneData()
